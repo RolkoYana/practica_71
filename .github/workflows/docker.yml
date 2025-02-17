@@ -1,6 +1,6 @@
 name: Publicar imagen Docker
 
-on: 
+on:
   push:
     branches:
       - main
@@ -39,5 +39,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: | #
-            raul-profesor/practica_7.1:latest
-            ghcr.io/raul-profesor/practica_7.1:latest
+            rolkoyana21/practica_7.1:latest
+            ghcr.io/RolkoYana/practica_7.1:latest
